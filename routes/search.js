@@ -70,6 +70,7 @@ router.post("/getCurrentWether", async (req, res) => {
 				return (result = "error");
 			}
 		});
+        console.log('~ result', result);
 		return res.send(result);
 	} catch (err) {
 		res.send(err);
