@@ -9,7 +9,7 @@ app.use(express.json());
 // app.use("/search", require("./routes/search"));
 
 app.get("/", (req, res) => {
-	res.send(`<h1>Herolo Server</h1>`);
+	res.send(`<h1>Herolo Server hi there</h1>`);
 });
 
 app.listen(PORT, () => {
